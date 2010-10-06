@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Hot Topics Widget
-Plugin URI: http://github.com/BryanH/Hot-Topics.git
+Plugin URI: http://github.com/BryanH/Hot-Topics-Widget
 Description: Displays a clickable Hot Topics list
 Version: 1.1
 Author: Bryan Hanks, PMP
@@ -25,7 +25,7 @@ class Widget_Hot_Topics extends WP_Widget {
 			'height' => 150,
 			'id_base' => 'hot_topics'
 		);
-		$this->WP_Widget('hot_topics', __('HDN Hot Topics', 'hot_topics'), $widget_ops, $control_ops);
+		$this->WP_Widget('hot_topics', __('Hot Topics', 'hot_topics'), $widget_ops, $control_ops);
 	}
 	/**
 	 * Public View
@@ -51,7 +51,7 @@ class Widget_Hot_Topics extends WP_Widget {
 					// modified the category link for the niche sites "site category" functionality
 					// @TODO: this should change in the future as we fix the niche site theme
 					$category = get_category($category_id);
-					$category_link = get_bloginfo('url') . '/site-category/' . $category->slug ;
+					$category_link = get_bloginfo('url') . '/category/' . $category->slug ;
 					$topic = '<a href="' . $category_link . '" title="' . $topic . '">' . $topic . '</a>';
 				} else {
 					//	topic is not a link
