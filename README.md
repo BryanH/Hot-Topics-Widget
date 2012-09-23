@@ -18,4 +18,4 @@ If you enter a category that doesn't exist, Wordpress will still display the nam
 Delete the directory from the `wp-content/plugin` directory.
 
 ## Author
-Bryan Hanks, PMP bryanh41@hotmail.com
+Bryan Hanks, with contributions by David Morris

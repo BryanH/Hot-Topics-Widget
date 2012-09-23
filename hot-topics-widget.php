@@ -1,14 +1,25 @@
 <?php
 /*
-Plugin Name: Hot Topics Widget
-Plugin URI: http://github.com/BryanH/Hot-Topics-Widget
-Description: Displays a clickable Hot Topics list
-Version: 1.1
-Author: Bryan Hanks, PMP
-Author URI: http://www.chron.com/apps/adbxh0/wordpress/
-License: GPL (see http://www.gnu.org/copyleft/gpl.html)
+ * Plugin Name: Hot Topics Widget
+ * Plugin URI: http://github.com/BryanH/Hot-Topics-Widget
+ * Description: Displays a clickable Hot Topics list
+ * Version: 1.10
+ * Author: Bryan Hanks, PMP
+ * Author URI: http://www.chron.com/apps/adbxh0/wordpress/
+ * License: GPLv3
 
-Instructions: copy this file into wp-content/plugins and activate on each blog
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 */
 
